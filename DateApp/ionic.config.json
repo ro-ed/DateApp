@@ -1,0 +1,7 @@
+{
+  "name": "DateApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
