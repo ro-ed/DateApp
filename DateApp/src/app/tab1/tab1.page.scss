@@ -1,0 +1,21 @@
+.main-header {
+    height: 25vh;
+    width: 100%;
+    background: linear-gradient(90deg, var(--ion-color-tertiary) 0%, var(--ion-color-primary) 100%);
+    box-shadow: 0 1px 10px var(--ion-color-light);
+    border-radius: 0 0 50% 50%;
+    
+    
+    div {
+        transform: translate(2vh);
+        ion-avatar {
+            width: 15vh;
+            height: 15vh;
+            background: var(--ion-color-white);
+            background-color: white;
+            margin-bottom: 5px;
+            border: 7px solid white;
+           
+        }
+    }
+}

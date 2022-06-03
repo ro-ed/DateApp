@@ -1,11 +1,40 @@
 
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-     
-    </ion-toolbar>
-  </ion-header>
+  <ion-grid class="main-header">
+    <div align="center">
+      <ion-avatar>
+            <img src="assets/icons/icon-96x96.png" alt="">
+      </ion-avatar>
+    </div>
+    
+  </ion-grid>
 
-  <app-explore-container name="Profile"></app-explore-container>
+<ion-list>  
+  <ion-item>
+    <ion-label>
+      <ion-text>Name</ion-text>
+      <p><ion-text color="dark">Robin</ion-text></p>
+    </ion-label>
+  </ion-item>
+  <ion-item>
+    <ion-label>
+      <ion-text>Phone</ion-text>
+      <p><ion-text color="dark">123123123</ion-text></p>
+    </ion-label>
+  </ion-item>
+  <ion-item>
+    <ion-label>
+      <ion-text>Email</ion-text>
+      <p><ion-text color="dark">robin@test.com</ion-text></p>
+    </ion-label>
+  </ion-item>
+  <ion-item>
+    <ion-label>
+      <ion-text>Address</ion-text>
+      <p><ion-text color="dark">Sweden</ion-text></p>
+    </ion-label>
+  </ion-item>
+</ion-list>
+  
 </ion-content>
