@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { Tab1Page } from './profile-tab.page';
+import { ProfileTabPage } from './profile-tab.page';
 
 const routes: Routes = [
   {
     path: '',
-    component: Tab1Page,
+    component: ProfileTabPage,
   }
 ];
 
