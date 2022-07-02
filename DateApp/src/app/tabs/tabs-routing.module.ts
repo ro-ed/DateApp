@@ -9,15 +9,15 @@ const routes: Routes = [
     children: [
       {
         path: 'profile',
-        loadChildren: () => import('../profile-tab/profile-tab.module').then(m => m.Tab1PageModule)
+        loadChildren: () => import('../profile-tab/profile-tab.module').then(m => m.ProfileTabModule)
       },
       {
         path: 'match',
-        loadChildren: () => import('../match-tab/match-tab.module').then(m => m.Tab2PageModule)
+        loadChildren: () => import('../match-tab/match-tab.module').then(m => m.MatchTabModule)
       },
       {
         path: 'options',
-        loadChildren: () => import('../tab3/tab3.module').then(m => m.Tab3PageModule)
+        loadChildren: () => import('../chat-tab/chat-tab.module').then(m => m.ChatTabModule)
       },
       {
         path: '',
