@@ -6,7 +6,7 @@ import { FormsModule } from '@angular/forms';
 import { MatchTabPage } from './match-tab.page';
 import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
 
-import { Tab2PageRoutingModule } from './match-tab-routing.module';
+import { MatchTabRoutingModule } from './match-tab-routing.module';
 
 @NgModule({
   imports: [
@@ -14,8 +14,8 @@ import { Tab2PageRoutingModule } from './match-tab-routing.module';
     CommonModule,
     FormsModule,
     ExploreContainerComponentModule,
-    Tab2PageRoutingModule
+    MatchTabRoutingModule
   ],
   declarations: [MatchTabPage]
 })
-export class Tab2PageModule {}
+export class MatchTabModule {}

@@ -5,7 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { ProfileTabPage } from './profile-tab.page';
 import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
 
-import { Tab1PageRoutingModule } from './profile-tab-routing.module';
+import { ProfileTabRoutingModule } from './profile-tab-routing.module';
 
 @NgModule({
   imports: [
@@ -13,8 +13,8 @@ import { Tab1PageRoutingModule } from './profile-tab-routing.module';
     CommonModule,
     FormsModule,
     ExploreContainerComponentModule,
-    Tab1PageRoutingModule
+    ProfileTabRoutingModule
   ],
   declarations: [ProfileTabPage]
 })
-export class Tab1PageModule {}
+export class ProfileTabModule {}
