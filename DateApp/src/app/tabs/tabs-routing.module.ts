@@ -16,7 +16,7 @@ const routes: Routes = [
         loadChildren: () => import('../match-tab/match-tab.module').then(m => m.MatchTabModule)
       },
       {
-        path: 'options',
+        path: 'chat',
         loadChildren: () => import('../chat-tab/chat-tab.module').then(m => m.ChatTabModule)
       },
       {

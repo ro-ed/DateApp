@@ -14,7 +14,6 @@ import { ChatTabRoutingModule } from './chat-tab-routing.module';
     CommonModule,
     FormsModule,
     ExploreContainerComponentModule,
-    RouterModule.forChild([{ path: '', component: ChatTabPage }]),
     ChatTabRoutingModule,
   ],
   declarations: [ChatTabPage]
