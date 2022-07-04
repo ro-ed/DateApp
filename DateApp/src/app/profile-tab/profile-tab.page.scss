@@ -1,10 +1,15 @@
 .main-header {
     height: 25vh;
     width: 100%;
-    background: linear-gradient(90deg, var(--ion-color-medium) 0%, rgb(252, 152, 2) 100%);
+    // background: linear-gradient(90deg, #BB342F 0%, #DDA448 100%);
+    background: linear-gradient(90deg, #392F5A 0%, #FF8811 100%);
     box-shadow: 0 1px 10px var(--ion-color-light);
     border-radius: 0 0 50% 50%;
-    
+    aspect-ratio: 960/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     
     div {
         transform: translate(2vh);
@@ -19,3 +24,36 @@
         }
     }
 }
+
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.svgImage{
+  position: relative;
+  top: 0;
+  left: 0;
+  border-radius: 0% 0% 15% 15%;
+  margin-bottom: -10%;
+}
+
+.iconImage{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 5px;
+    left: 33%;
+    border-radius: 50%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
